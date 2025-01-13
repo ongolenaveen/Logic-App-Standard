@@ -1,0 +1,17 @@
+{
+  "serviceProviderConnections": {
+    "Smtp": {
+      "parameterValues": {
+        "enableSSL": "@appsetting('Smtp_enableSSL')",
+        "serverAddress": "@appsetting('Smtp_serverAddress')",
+        "username": "@appsetting('Smtp_username')",
+        "password": "@appsetting('Smtp_password')"
+      },
+      "serviceProvider": {
+        "id": "/serviceProviders/Smtp"
+      },
+      "displayName": "office365connection"
+    }
+  },
+  "managedApiConnections": {}
+}
